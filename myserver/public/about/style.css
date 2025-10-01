@@ -1,0 +1,31 @@
+
+.google-sans-code-googleFont {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Google Sans Code';
+    background-color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+a {
+  color: rgb(177, 239, 255);
+}
