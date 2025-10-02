@@ -51,5 +51,5 @@ func main() {
 	srv.Protocols = new(http.Protocols)
 	srv.Protocols.SetHTTP1(true)
 
-	log.Fatal(srv.ListenAndServeTLS("cert.pem", "key.pem"))
+	log.Fatal(srv.ListenAndServeTLS("localhost.pem", "localhost-key.pem"))
 }
